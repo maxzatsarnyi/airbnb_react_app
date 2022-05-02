@@ -1,0 +1,9 @@
+@import url('/src/index.scss');
+
+.home {
+    
+    &__section {
+        display: flex;
+        padding: 30px;
+    }
+}
