@@ -1,0 +1,47 @@
+@import url('/src/index.scss');
+
+.search {
+    position: absolute;
+    top: 35px;
+    left: 25%;
+    width: 100vw;
+    
+    h2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 559px;
+        padding: 10px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        top: 380px;
+    }
+
+    &__input {
+        width: 539px;
+        padding: 20px;
+        position: absolute;
+        left: 0;
+        top: 420px;
+        height: 30px;
+        border: none;
+        &:focus {
+            outline-width: 0;
+        }
+    }
+
+    &__button {
+        position: absolute;
+        left: 0;
+        top: 480px;
+        width: 579px;
+        background-color: #ff7779;
+        color: #fff;
+        text-transform: inherit !important;
+        &:hover {
+            background-color: #fff;
+            color: #ff7779;
+        }
+    }
+}
